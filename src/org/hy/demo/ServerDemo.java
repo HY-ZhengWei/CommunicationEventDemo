@@ -15,7 +15,7 @@ import org.hy.common.xml.annotation.Xjava;
 
 
 /**
- * 项目间相互通讯的事件机构(事件类型可自定义)的演示服务端Demo
+ * 服务间相互通讯的事件机构(事件类型可自定义)的演示服务端Demo
  *
  * @author      ZhengWei(HY)
  * @createDate  2017-02-10
