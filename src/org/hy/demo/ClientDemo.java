@@ -78,7 +78,7 @@ public class ClientDemo
         }
         else
         {
-            System.out.println("-- 服务器或网络异常。");
+            System.out.println("-- 服务器异常 或 网络异常。");
         }
     }
     
