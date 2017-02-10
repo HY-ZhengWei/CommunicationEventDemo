@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+
+	<import name="xconfig"         class="java.util.ArrayList" />
+	<import name="xparam"          class="java.util.Hashtable" />
+	<import name="item"            class="org.hy.common.app.Param" />
+	
+	
+	
+	<!-- 系统配置参数信息 -->
+	<xconfig>
+		
+	    <xparam id="SYSParam" key="name">
+	    
+	        <item id="Servers">
+	            <name>Servers</name>
+				<value>
+				    127.0.0.1:1721
+				</value>
+				<comment>全部服务器列表(用逗号分隔)</comment>
+	        </item>
+	        
+	        <item id="ClusterTimeout">
+	            <name>ClusterTimeout</name>
+				<value>30000</value>
+				<comment>集群并发通讯的超时时长(单位：毫秒)</comment>
+	        </item>
+	        
+		</xparam>
+		
+	</xconfig>
+	
+</config>
