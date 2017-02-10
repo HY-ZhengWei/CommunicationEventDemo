@@ -30,6 +30,7 @@ import org.hy.common.xml.annotation.Xjava;
 public class ClientDemo
 {
     
+    
     public static void main(String [] args) throws Exception
     {
         // 在执行前，请先执行服务端应用ServerDemo
