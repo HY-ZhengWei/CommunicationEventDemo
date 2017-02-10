@@ -79,7 +79,10 @@ public class ServerDemo implements CommunicationListener
             v_ResponseData.setResult(2);
             return v_ResponseData;
         }
-            
+        
+        System.out.println("-- 服务端接收到的数据为：");
+        Help.print(v_DataMap);
+        
         v_ResponseData.setData(Help.toListKeys(v_DataMap));
         
         return v_ResponseData;
