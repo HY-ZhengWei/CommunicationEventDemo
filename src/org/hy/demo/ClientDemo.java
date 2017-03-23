@@ -103,7 +103,7 @@ public class ClientDemo
         {
             String [] v_HostPort = (v_Server.trim() + ":1721").split(":");
             
-            v_Clusters.add(new ClientSocket(v_HostPort[0] ,Integer.parseInt(v_HostPort[1])));
+            v_Clusters.add(new ClientSocket(v_HostPort[0] ,Integer.parseInt(v_HostPort[1])).setValidate(new ClientValidate()));
         }
         
         return v_Clusters;

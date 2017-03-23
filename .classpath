@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="lib" path="lib/hy.common.base.jar"/>
-	<classpathentry kind="lib" path="lib/hy.common.net.jar"/>
+	<classpathentry kind="lib" path="lib/hy.common.net.jar" sourcepath="/hy.common.net"/>
 	<classpathentry kind="lib" path="lib/xjava.jar"/>
 	<classpathentry kind="lib" path="lib/hy.common.file.jar"/>
 	<classpathentry kind="lib" path="lib/servlet-api.jar"/>
